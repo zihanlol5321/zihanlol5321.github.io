@@ -3,3 +3,8 @@ body{
      background-size :  cover;
      background-color : tan;
  }
+ p.headline{
+     color : red;
+     text-align : center;
+     background-color : white;
+ }
