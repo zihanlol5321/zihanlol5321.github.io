@@ -1,4 +1,4 @@
-alert("hello. I know this page doesnt looks like a big deal but I actually had put a quite a lot of effort in it. Hope you like it");
+alert("hello. I know this page doesnt looks like a big deal but I actually had put a quite a lot of effort in it. Hope you like it (in mobile, it looks weird😓😔.use laptop for better experience)");
 var q1 = document.getElementsByName("q1");
 var q2 = document.getElementsByName("q2");
 var q3 = document.getElementsByName("q3");
