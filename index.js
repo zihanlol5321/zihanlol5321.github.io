@@ -73,3 +73,28 @@ function score(){
         alert("your score is " + result + "/30 .how did you manage to score less than 30?🤨🤨");
     }
 }
+var images=[
+    "https://dl.dropboxusercontent.com/s/luwvzsgyn2c5hl2/121197727_633126467593445_1021320975722596853_n.jpg?dl=0",
+    "https://dl.dropboxusercontent.com/s/846css6u5aq3ypp/121225415_253655309398328_7341788254976407301_n.jpg?dl=0",
+    "https://dl.dropboxusercontent.com/s/97177f9sbm2vsjc/121207460_659856264926273_8040154894036616566_n.jpg?dl=0",
+    "https://dl.dropboxusercontent.com/s/qivp0ro5gf97gmt/121196382_2712173595705782_7617930030571073722_n.jpg?dl=0",
+    "https://dl.dropboxusercontent.com/s/7d05h3gkjo3nlmu/121150498_3949564778388234_5443394368141926522_n.jpg?dl=0",
+    "https://dl.dropboxusercontent.com/s/3uoupf1xwqsikej/121239511_261008068555244_2763866198441190182_n.jpg?dl=0"
+    ];
+var num=0;
+function next(){
+    var slider=document.getElementById("slider");
+    num++;
+    if(num >= images.length){
+        num=0;
+    }
+    slider.src= images[num];
+}
+function prev(){
+    var alider=document.getElementById("slider");
+    num--;
+    if(num < 0){
+        num=images.length-1;
+    }
+    slider.src=images[num];
+}
