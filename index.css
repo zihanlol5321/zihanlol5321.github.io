@@ -34,3 +34,6 @@ body{
       width : 75px;
       height : 80px;
 }
+a:hover{
+color : red;
+}
