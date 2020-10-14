@@ -23,6 +23,10 @@ body{
      background-size : cover;
      color : white;
  }
+.finale{
+     background-color : white;
+     color : red;
+}
 #conclusions{
      width : 500px;
      height : 100px;
