@@ -1,4 +1,4 @@
-alert("hello. I know this page doesnt looks like a big deal but I actually had put a quite a lot of effort in it. Hope you like it (in mobile, it looks weird😓😔. ");
+alert("hello. I know this page doesnt looks like a big deal but I actually had put a quite a lot of effort in it. Hope you like it (in mobile, it looks weird😓😔.) ");
 alert("Make sure to use chorme. Ive made changes according to chorme mobile version. So, if you use else, it may look more weirder. use chorme mobile to get the best experience");
 var q1 = document.getElementsByName("q1");
 var q2 = document.getElementsByName("q2");
